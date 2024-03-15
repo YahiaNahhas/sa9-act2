@@ -4,7 +4,7 @@ class TodoList
   end
 
   def add(todo)
-    @todo << todo
+    @todos << todo
   end
 
   def remove(todo)
